@@ -12,6 +12,7 @@ import GameplayKit
 
 class GameViewController: UIViewController {
 
+    @IBOutlet weak var text: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         
